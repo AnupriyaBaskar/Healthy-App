@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/demoindexnew.css' %}">
+    <link rel="stylesheet" href="demoindexnew.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>card</title>
+    <style>
+        .img4{
+            background-image: url("{% static 'images/login2.png' %}");
+            background-repeat: no-repeat;
+            background-size:cover;
+            scroll-behavior: auto;
+        }
+    </style>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+   
+</head>
+<body class="img4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                
+        <div class="container"> 
+            <a href="/" class="navbar-brand"> 
+                <img src="{% static 'images/login4.png' %}"
+                width="30" height="30" alt="logo" loading="lazy">
+                HEALTHY BOWL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar"
+            aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                
+
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="myNavBar">
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:8000/" class="nav-link" style="font-family: 'Times New Roman', Times, serif">LOGOUT</i></a>
+                    </li>     
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:8000/aboutus" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:8000/tips" class="nav-link active">TIPS</a>
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container millets" style="color: white; font-weight: 100px; font-family: 'Times New Roman', Times, serif;">
+
+    <div class="shop" id="shop">
+        <div class="item">
+            <img width="344" src="{% static 'images/image1.JFIF' %}" height="300px">
+            <div class="details">
+			    <h2>Almonds</h2>
+                
+				<p> Almonds are High in Antioxid,Vitamin E <br>It Helps In Reducing Blood Preesure,Collastral level,
+				You Can Consume Almond In Daily Basis by Includingin selan Etc..... </p>
+            </div>
+            <div class="bot">
+				<a href="https://www.tasteofhome.com/collection/health-benefits-of-almonds/" ><button type="button" class="btn btn-primary" >View More</button></a>
+            </div>
+             
+			
+        </div>
+        <div class="item">
+            <img width="344" src="{% static 'images/image2.JFIF' %}" height="300px">
+            <div class="details">
+                <h3>Bajra</h3>
+                <p>Its Is Good For Insomiya.Its Is Rich Source Of Iron Helps In Bound Movement And Potects the Cell developement
+				it Can Be Consume that Route,Methi poori</p>
+            </div>
+            <div class="bot">
+				<a href="https://www.healthline.com/nutrition/benefits-of-bajra#benefits" ><button type="button" class="btn btn-primary">View More</button></a>
+                
+            </div>
+        </div>
+        <div class="item">
+            <img width="344" src="{% static 'images/image3.JFIF' %}" height="300px">
+            <div class="details">
+                <h3>Sorghum Millet</h3>
+                <p>Its Improve digest Health And Prevent Cancer, Its Helps building Healthy Bone And Promote RBC improvement
+	, Its Reduces LDS,it can be Consumed Form Of Upuma,Dosa Rote, Etc....</p></div>
+            <div class="bot">
+               <a href="https://www.britannica.com/plant/sorghum-grain" ><button type="button" class="btn btn-primary">View More</button></a>
+         
+            </div>
+        </div>
+        <div class="item">
+            <img width="344" src="{% static 'images/image4.JFIF' %}" height="300px">
+            <div class="details">
+                <h3>Foxtail Millets</h3>
+                <p>Its Is Rich Source Of irons And Calcium, Its can easily absourb and digest by kids,
+				it can be consume uppuma, pulav and Pongal</p></div>
+                <div class="bot">
+				<a href="https://pharmeasy.in/blog/ayurveda-uses-benefits-side-effects-of-foxtail-millet/" ><button type="button" class="btn btn-primary">View More</button></a>
+             </div>
+        </div>
+		<div class="item">
+            <img width="344" src="{% static 'images/image5.JFIF' %}" height="300px">
+            <div class="details">
+                <h3>Turmeric</h3>
+                <p>Its has Powerfull Anti inflametric and Anti Oxident Property,its Help in reducing collastrol in blood 
+				and Improves Kidney Health,it can be included in our daily cooking</p></div>
+                <div class="bot">
+				<a href="https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-turmeric#TOC_TITLE_HDR_3" ><button type="button" class="btn btn-primary">View More</button></a>
+            </div>
+        </div>
+		<div class="item">
+            <img width="344" src="{% static 'images/image6.JFIF' %}" height="300">
+            <div class="details">
+                <h3>Fenugereek</h3>
+                <p>Its reduces the risk of cancer, Diapetics,obesity,collastral and blood pressure,
+				it contain essential Nutirius ,this make this strong anti oxident</p>
+            </div>
+            <div class="bot">
+				<a href="https://www.healthline.com/nutrition/fenugreek#nutrients" ><button type="button" class="btn btn-primary">View More</button></a>
+              
+            </div>
+        </div>
+        
+        </div>
+
+
+
+    </div>
+</body>
+</html>

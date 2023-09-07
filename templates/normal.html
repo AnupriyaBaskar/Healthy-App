@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <title>Diet plan</title>
+        {% load static %}
+        
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <style>
+            body{
+                background-image: url("{% static 'images/bggg1.png' %}");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+           
+            table,th,tr,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                border-radius: 20px;
+                padding: 10px;
+                border-spacing: 20px;
+                
+            }
+
+            .container{
+                padding-top: 130px;
+            }
+
+            #form{
+                padding-left: 120px;
+            }
+        </style>
+    </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <body>
+        
+        <div class="container">
+            <div class="card bg-danger-subtle">
+                <div class="row bg-danger-subtle">
+                    <div class="col-md-4">
+                        <img src="{% static 'images/12.webp' %}" alt="j" width="450px" height="400px">
+                    </div>
+                    <div class="col-md-8">
+                        <form class="form-group" id="form">
+                            <div class="row">
+                                <div class="col-4 justify-content-center">
+                                    <label class="form-control"> 
+                                        Morning
+                                    </label>
+                                </div>
+                            
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-control"> 
+                                        <table>
+                                            <tr>
+                                                <th>Food Dishes</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Carbohydrates- Samai Millet Kichadi
+                                
+                                                </td>
+                                                <td> 1 cup or 250grms</td>
+                                            </tr>
+                                            <tr><td> Millet dosa</td>
+                                                <td> 2 nos</td></tr>
+                                                
+                                            <tr><td> Millet idli</td>
+                                                <td> 3 nos</td></tr></tr>
+                                            <tr><td>Protein- urad dal chutney</td>
+                                                <td> 1/2 cup </td></tr>
+                                                    
+                                            <tr><td> Vitamins and Minerals- Banana/Sweet lime/Apple </td>
+                                                <td> 1 </td></tr> 
+                                            <tr><td> Diary product-Milk/yogurt/curd </td>
+                                                <td> 1 Glass / 1/2cup / 1/2cup </td></tr>
+
+                                       </table>
+
+                                    </label>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="card bg-danger-subtle">
+                <div class="row bg-danger-subtle">
+                    <div class="col-md-4">
+                        <img src="{% static 'images/after.jpeg' %}" alt="j" width="450px" height="400px">
+                    </div>
+                    <div class="col-md-8">
+                        <form class="form-group" id="form">
+                            <div class="row">
+                                <div class="col-4 justify-content-center">
+                                    <label class="form-control"> 
+                                        Afternoon
+                                    </label>
+                                </div>
+                            
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-control"> 
+                                        <table>
+                                            <tr>
+                                                <th>Food Dishes</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Carbohydrates - Brown rice
+                                
+                                                </td>
+                                                <td> 1 cup or 250grms</td>
+                                            </tr>
+                                            <tr><td> Veg kuruma <br><small class="text-muted">(vegetables of your choice)</small></td>
+                                                <td> 1/2 cup </td></tr>
+                                                
+                                            <tr><td>Chana curry</td>
+                                                <td> 1/2 cup</td></tr></tr>
+                                            <tr><td>Butter milk</td>
+                                                <td> 1 Glass </td></tr>
+                                                    
+                                            <tr><td> Vitamins and Minerals- Banana/Mango/Guava </td>
+                                                <td> 1 </td></tr> 
+                                       </table>
+
+                                    </label>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="card bg-danger-subtle">
+                <div class="row bg-danger-subtle">
+                    <div class="col-md-4">
+                        <img src="{% static 'images/after.jpeg' %}" alt="j" width="450px" height="400px">
+                    </div>
+                    <div class="col-md-8">
+                        <form class="form-group" id="form">
+                            <div class="row">
+                                <div class="col-4 justify-content-center">
+                                    <label class="form-control"> 
+                                        Evening
+                                    </label>
+                                </div>
+                            
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-control"> 
+                                        <table>
+                                            <tr>
+                                                <th>Food Dishes</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                     Green tea or Milk tea
+                                                    /chana dal 
+                                
+                                                </td>
+                                                <td> 1 Glass/ 1/2 cup</td>
+                                            </tr>
+                                            
+                                       </table>
+
+                                    </label>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="card bg-danger-subtle">
+                <div class="row bg-danger-subtle">
+                    <div class="col-md-4">
+                        <img src="{% static 'images/after.jpeg' %}" alt="j" width="450px" height="400px">
+                    </div>
+                    <div class="col-md-8">
+                        <form class="form-group" id="form">
+                            <div class="row">
+                                <div class="col-4 justify-content-center">
+                                    <label class="form-control"> 
+                                        Dinner
+                                    </label>
+                                </div>
+                            
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-control"> 
+                                        <table>
+                                            <tr>
+                                                <th>Food Dishes</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Vegetable Millet chapathi (foxtail + quinoa + moong dal + vegetables) +
+                                                     curd 
+                                
+                                                </td>
+                                                <td> 1 cup or 250grms</td>
+                                            </tr>
+                                            <tr><td> Vegetable dosa <br><small class="text-muted">(vegetables of your choice)</small></td>
+                                                <td> 2nos </td></tr>
+                                                
+                
+                                            <tr><td> Vitamins and Minerals- Banana/nuts/dates </td>
+                                                <td> 1/5/3 </td></tr> 
+                                       </table>
+
+                                    </label>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       
+        
+
+       <nav aria-label="diet Pagination" class="my-5">
+        <ul class="pagination justify-content-center pagination-lg">
+            <li class="page-item">
+               <a href="http://127.0.0.1:8000/normal" class="page-link">1</a> 
+            </li>
+            <li class="page-item">
+                <a href="http://127.0.0.1:8000/video" class="page-link">2</a> 
+             </li>
+             
+        </ul>
+
+       </nav>
+    </body>
+</html>

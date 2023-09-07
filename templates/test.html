@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>TEST</title>
+    </head>
+    <body>
+        <h1>MYSQL CONNECTION</h1>
+        <table>
+                {% for t in test %}
+                   <tr>
+                        <td>{{t.name}}</td>
+                        <td>{{t.email}}</td>
+                        <td>{{t.password}}</td>
+                   </tr>
+                {% endfor %}
+        </table>
+    </body>
+</html>
